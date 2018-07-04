@@ -1,0 +1,11 @@
+.footer{
+	font-family: Poppins, sans-serif;
+	text-align: center;
+	background-color: #292929;
+	font-size: 20px;
+}
+
+.footer h4{
+	text-transform: uppercase;
+	color: #fff;
+}

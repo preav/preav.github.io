@@ -1,33 +1,16 @@
+@import url("navigation.css");
+@import url("contact.css");
+@import url("banner.css");
+@import url("footer.css");
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
 .mainContainer{
 	min-width: 600px;
-	width: 80%;
 	margin: auto;
 	overflow: hidden;
-}
-
-.nav-menu{
-	list-style: none;
-	text-align: center;
-}
-
-li{
-	display: inline-block;
-}
-
-.nav-brand{
-	float: left;
-	width: 15%;
-	border: 1px solid black;
-	padding-left: 0;
-}
-
-.nav-nav{
-	width: 80%;
-	float: left;
-	padding-left: 0;
-}
-
-.banner{
-	background-color: #ecf0f1;
-	clear: both;
+	background: #ecf0f1;
 }

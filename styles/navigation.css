@@ -1,0 +1,31 @@
+.nav-bar{
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.nav-menu-container{
+	width: 70%;
+	float: right;
+	padding-left: 0;
+	background-color: #fff;
+}
+
+.nav-menu{
+	list-style: none;
+	text-align: right;
+	vertical-align: center;
+}
+
+.nav-menu li{
+	display: inline;
+	padding-right: 10px;
+	width: 100%;
+}
+
+.nav-menu li a{
+	text-decoration: none;
+}
+
+.nav-menu a:hover{
+	color: red;
+}

@@ -1,30 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/styles/reset.css">
 	<link rel="stylesheet" type="text/css" href="/styles/index.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 	<title> Portfolio </title>
 </head>
 <body>
 	<div class="mainContainer">
 		<div class="nav-bar">
-			<div class="nav-brand"> Preeti </div>
-			<div class="nav-nav">
+			<a href="#" class="brand-logo-link">
+				<img class="brand-logo" src="../images/brand-logo.PNG" alt="brand-logo">
+			</a>
+			<div class="nav-menu-container">
 				<ul class="nav-menu">
-					<li> Home </li>
-					<li> About </li>
-					<li> Features </li>
-					<li> Services </li>
-					<li> Portfolio </li>
-					<li> Blog </li>
-					<li> Contact </li>
+					<li><a href="#"> Home </a></li>
+					<li><a href="#"> About </a></li>
+					<li><a href="#"> Features </a></li>
+					<li><a href="#"> Services </a></li>
+					<li><a href="#"> Portfolio </a></li>
+					<li><a href="#"> Blog </a></li>
+					<li><a href="#"> Contact </a></li>
 				</ul>
 			</div>
 		</div>
-		<div class="banner">
-			<h1> Preeti Yadav </h1>
-			<h3> UI Developer </h3>
-			<p> Working as a UI Developer for more than 4 years. </p>
+		<div class="banner-container">
+			<div class="banner">
+				<h1 class="banner-header"> Preeti Yadav </h1>
+				<h3 class="banner-sub-header"> UI Developer </h3>
+				<p class="banner-info"> Working as a UI Developer for more than 4 years. </p>
+			</div>
+			<div class="banner-image">
+				<img src="../images/workspace@2x.png" alt="banner-image">
+			</div>
+		</div>
+		<div class="contact">
+			<form action="index.php" method="post">
+				<div>
+					<h2 class="contact-header"> Contact Me! </h2>
+					<p class="contact-info"> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+				</div>
+				<ul>
+					<li>
+						<input type="text" name="name" placeholder="Enter Name"/>
+						<input type="email" name="email" placeholder="Enter Email"/>
+					</li>
+					<li><input type="text" name="subject" placeholder="Subject"/></li>
+					<li><textarea name="message" placeholder="Message"></textarea></li>
+					<li><input type="submit" name="submit" value="Submit"></li>
+				</ul>
+			</form>
+			<div class="contact-location">
+				<p> Publicis.sapient, Bangalore, Karnataka </p>
+			</div>
+			<div class="contact-details">
+				<p> +91-7798077665 </p>
+			</div>
+			<div class="contact-support">
+				<p> preetiyadav0492@gmail.com </p>
+			</div>
+		</div>
+		<div class="footer">
+			<h4> Preeti </h4>
+			<a href="#">
+				<i class="fab fa-facebook-f"></i>
+			</a>
+			<a href="#">
+				<i class="fab fa-twitter"></i>
+			</a>
+			<a href="#">
+				<i class="fab fa-linkedin-in"></i>
+			</a>
+			<a href="#">
+				<i class="fab fa-behance"></i>
+			</a>
 		</div>
 	</div>
 </body>

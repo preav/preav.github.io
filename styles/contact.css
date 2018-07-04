@@ -1,0 +1,25 @@
+.contact{
+	margin: auto;
+}
+
+.contact-header{
+	font-size: 32px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	line-height: 38.4px;
+}
+
+.contact-info{
+	font-size: 14px;
+	font-weight: 400;
+	color: #6c757d;
+	opacity: 0.9;
+}
+
+.extra{
+	clear: both;
+}
+
+form ul{
+	list-style: none;
+}
