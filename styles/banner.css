@@ -1,6 +1,7 @@
 .banner-container{
 	width: 100%;
-	vertical-align: middle;
+	padding: 120px;
+	background-color: #EEF1F2;
 }
 
 .banner{
@@ -14,6 +15,7 @@
 	display: block;
 	line-height: 84px;
 	margin: 0;
+	font-weight: 700;
 }
 
 .banner-sub-header{
@@ -21,6 +23,8 @@
 	font-size: 18px;
 	display: block;
 	line-height: 28px;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 

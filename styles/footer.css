@@ -2,10 +2,32 @@
 	font-family: Poppins, sans-serif;
 	text-align: center;
 	background-color: #292929;
-	font-size: 20px;
 }
 
-.footer h4{
+.foot-header{
 	text-transform: uppercase;
 	color: #fff;
+	font-size: 20px;
+	padding: 10px;
+	text-decoration: underline;
+	letter-spacing: 2px;
+	font-weight: 700;
+	line-height: 28px;
+}
+
+a{
+	text-decoration: none;
+	padding: 15px;
+}
+
+.fab, .copy{
+	color: #777;
+}
+
+.copy{
+	text-transform: uppercase;
+	padding: 10px;
+	font-size: 14px;
+	letter-spacing: 2px;
+	font-weight: 700px;
 }

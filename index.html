@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div class="mainContainer">
-		<div class="nav-bar">
+		<nav class="nav-bar">
 			<a href="#" class="brand-logo-link">
 				<img class="brand-logo" src="../images/brand-logo.PNG" alt="brand-logo">
 			</a>
@@ -26,7 +26,7 @@
 					<li><a href="#"> Contact </a></li>
 				</ul>
 			</div>
-		</div>
+		</nav>
 		<div class="banner-container">
 			<div class="banner">
 				<h1 class="banner-header"> Preeti Yadav </h1>
@@ -38,33 +38,42 @@
 			</div>
 		</div>
 		<div class="contact">
-			<form action="index.php" method="post">
-				<div>
-					<h2 class="contact-header"> Contact Me! </h2>
-					<p class="contact-info"> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+			<div class="form-card">
+				<form action="index.php" method="post">
+					<div>
+						<h2 class="contact-header"> Contact Me! </h2>
+						<p class="contact-info"> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+					</div>
+					<ul>
+						<li>
+							<input class="input" type="text" name="name" placeholder="Enter Name"/>
+						</li>
+						<li>
+							<input class="input" type="email" name="email" placeholder="Enter Email"/>
+						</li>
+						<li><input class="input" type="text" name="subject" placeholder="Subject"/></li>
+						<li><textarea class="input" name="message" placeholder="Message"></textarea></li>
+						<li><input class="submit" type="submit" name="submit" value="SUBMIT"></li>
+					</ul>
+				</form>
+			</div>
+			<section class="contact-card">
+				<div class="card card1">
+					<h4> Location </h4>
+					<p> Publicis.sapient, Bangalore, Karnataka </p>
 				</div>
-				<ul>
-					<li>
-						<input type="text" name="name" placeholder="Enter Name"/>
-						<input type="email" name="email" placeholder="Enter Email"/>
-					</li>
-					<li><input type="text" name="subject" placeholder="Subject"/></li>
-					<li><textarea name="message" placeholder="Message"></textarea></li>
-					<li><input type="submit" name="submit" value="Submit"></li>
-				</ul>
-			</form>
-			<div class="contact-location">
-				<p> Publicis.sapient, Bangalore, Karnataka </p>
-			</div>
-			<div class="contact-details">
-				<p> +91-7798077665 </p>
-			</div>
-			<div class="contact-support">
-				<p> preetiyadav0492@gmail.com </p>
-			</div>
+				<div class="card card3">
+					<h4> Support </h4>
+					<p> preetiyadav0492@gmail.com </p>
+				</div>
+				<div class="card card2">
+					<h4> Contact </h4>
+					<p> +91-7798077665 </p>
+				</div>
+			</section>
 		</div>
-		<div class="footer">
-			<h4> Preeti </h4>
+		<footer class="footer">
+			<h4 class="foot-header"> Preeti </h4>
 			<a href="#">
 				<i class="fab fa-facebook-f"></i>
 			</a>
@@ -77,7 +86,8 @@
 			<a href="#">
 				<i class="fab fa-behance"></i>
 			</a>
-		</div>
+			<p class="copy"> &copy; Copyright Reserved to Preeti </p>
+		</footer>
 	</div>
 </body>
 </html>
