@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="/styles/reset.css">
 	<link rel="stylesheet" type="text/css" href="/styles/index.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -17,16 +18,19 @@
 					<img class="brand-logo" src="../images/brand-logo.PNG" alt="brand-logo">
 				</a>
 				<div class="nav-menu-container">
-					<ul class="nav-menu">
+					<ul class="nav-menu" id="menu">
 						<li><a href="#"> Home </a></li>
 						<li><a href="#"> About </a></li>
-						<li><a href="#"> Features </a></li>
-						<li><a href="#"> Services </a></li>
-						<li><a href="#"> Portfolio </a></li>
+						<!-- <li><a href="#"> Features </a></li> -->
+						<!-- <li><a href="#"> Services </a></li> -->
+						<!-- <li><a href="#"> Portfolio </a></li> -->
 						<li><a href="#"> Blog </a></li>
 						<li><a href="#"> Contact </a></li>
 					</ul>
 				</div>
+<!-- 				<div class="dropdown" onclick="displayMenu()">
+					<i class="fas fa-bars"></i>
+				</div> -->
 			</nav>
 		</div>
 		<div class="banner-container">
@@ -94,5 +98,16 @@
 			</a>
 		</footer>
 	</div>
+<!-- 	<script type="text/javascript">
+		function displayMenu(){
+			var idName = document.getElementById('menu');
+			if(idName === "nav-menu-container"){
+				idName+= "menubar";
+			}
+			else{
+				idName = "nav-menu-container";
+			}
+		}
+	</script> -->
 </body>
 </html>

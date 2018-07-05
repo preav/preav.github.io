@@ -1,15 +1,15 @@
 .contact{
 	margin: auto;
-	padding: 100px 100px 0 100px;
+	padding: 20% 0 10% 0;
 	text-align: center;
 	width: 100%;
 	box-sizing: border-box;
 }
 
 .form-card{
+	width: 100%;
 	display: flex;
 	flex-direction: column;
-	width: 80%;
 	margin: auto;
 }
 
@@ -31,6 +31,7 @@
 	color: #6c757d;
 	opacity: 0.9;
 	line-height: 1.5;
+	padding: 2px;
 }
 
 form{
@@ -55,13 +56,14 @@ form ul{
 
 .submit{
 	background-color: #e74c3c;
-	border: none;
+	border: 1px solid #e74c3c;
 	padding: 20px 40px;
 	margin: 20px 0;
 	font-weight: 400;
 	font-size: 1.14rem;
 	color: #fff;
 	cursor: pointer;
+	box-sizing: border-box;
 }
 
 .submit:hover{
@@ -91,4 +93,19 @@ form ul{
 
 .card p{
 	color: #333;
+}
+
+@media screen and (max-width: 768px){
+	.header-container{
+		width: 100%;
+	}
+	.contact-card{
+		flex-direction: column;
+	}
+	.card{
+		flex-basis: 100%;
+	}
+	.input{
+		width: 100%;
+	}
 }

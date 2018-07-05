@@ -15,26 +15,51 @@
 	height: 10%;
 }
 
+.brand-logo-link{
+	flex-basis: 30%;
+}
+
 .nav-menu-container{
-	width: 70%;
+	flex-basis: 70%;
 	background-color: #fff;
 }
 
-.nav-menu{
-	list-style: none;
-	display: flex;
-	justify-content: flex-end;
-}
-
-.nav-menu li{
-	display: inline;
-	padding-right: 5px;
-}
 
 .nav-menu li a{
+	color: black;
+	font-weight: 700;
 	text-decoration: none;
+	text-transform: uppercase;
 }
 
 .nav-menu a:hover{
 	color: #e74c3c;
+	background-color: #EEF1F2;
+}
+
+@media screen and (min-width: 769px){
+	.nav-menu{
+		list-style: none;
+		display: flex;
+		justify-content: flex-end;
+		margin-right: 25px;
+	}
+	.nav-menu li{
+		display: inline;
+		padding-right: 5px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.nav-bar{
+		flex-direction: column;
+	}
+	.nav-menu{
+		list-style: none;
+		display: flex;
+		justify-content: center;
+	}
+	.nav-menu li{
+		padding: 5px;
+	}
 }
