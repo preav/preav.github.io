@@ -11,39 +11,45 @@
 </head>
 <body>
 	<div class="mainContainer">
-		<nav class="nav-bar">
-			<a href="#" class="brand-logo-link">
-				<img class="brand-logo" src="../images/brand-logo.PNG" alt="brand-logo">
-			</a>
-			<div class="nav-menu-container">
-				<ul class="nav-menu">
-					<li><a href="#"> Home </a></li>
-					<li><a href="#"> About </a></li>
-					<li><a href="#"> Features </a></li>
-					<li><a href="#"> Services </a></li>
-					<li><a href="#"> Portfolio </a></li>
-					<li><a href="#"> Blog </a></li>
-					<li><a href="#"> Contact </a></li>
-				</ul>
-			</div>
-		</nav>
+		<div class="nav-container">
+			<nav class="nav-bar">
+				<a href="#" class="brand-logo-link">
+					<img class="brand-logo" src="../images/brand-logo.PNG" alt="brand-logo">
+				</a>
+				<div class="nav-menu-container">
+					<ul class="nav-menu">
+						<li><a href="#"> Home </a></li>
+						<li><a href="#"> About </a></li>
+						<li><a href="#"> Features </a></li>
+						<li><a href="#"> Services </a></li>
+						<li><a href="#"> Portfolio </a></li>
+						<li><a href="#"> Blog </a></li>
+						<li><a href="#"> Contact </a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
 		<div class="banner-container">
-			<div class="banner">
-				<h1 class="banner-header"> Preeti Yadav </h1>
-				<h3 class="banner-sub-header"> UI Developer </h3>
-				<p class="banner-info"> Working as a UI Developer for more than 4 years. </p>
-			</div>
-			<div class="banner-image">
-				<img src="../images/workspace@2x.png" alt="banner-image">
+			<div class="container">
+				<div class="banner">
+					<h1 class="banner-header"> Preeti Yadav </h1>
+					<h3 class="banner-sub-header"> UI/UX Designer &amp; Front-End Developer </h3>
+					<p class="banner-info"> Working as a UI Developer with more than 4 years of experience in web-apps and webpage development. </p>
+				</div>	
+				<div class="banner-image">
+					<div class="image-container">
+						<img src="../images/workspace@2x.png" alt="banner-image">
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="contact">
 			<div class="form-card">
+				<div class="header-container">
+					<h2 class="contact-header"> Contact Me! </h2>
+					<p class="contact-info"> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+				</div>
 				<form action="index.php" method="post">
-					<div>
-						<h2 class="contact-header"> Contact Me! </h2>
-						<p class="contact-info"> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-					</div>
 					<ul>
 						<li>
 							<input class="input" type="text" name="name" placeholder="Enter Name"/>
@@ -60,7 +66,7 @@
 			<section class="contact-card">
 				<div class="card card1">
 					<h4> Location </h4>
-					<p> Publicis.sapient, Bangalore, Karnataka </p>
+					<p> Bangalore, Karnataka </p>
 				</div>
 				<div class="card card3">
 					<h4> Support </h4>
@@ -73,7 +79,7 @@
 			</section>
 		</div>
 		<footer class="footer">
-			<h4 class="foot-header"> Preeti </h4>
+			<h4 class="footer-header"> Preeti </h4>
 			<a href="#">
 				<i class="fab fa-facebook-f"></i>
 			</a>
@@ -86,7 +92,6 @@
 			<a href="#">
 				<i class="fab fa-behance"></i>
 			</a>
-			<p class="copy"> &copy; Copyright Reserved to Preeti </p>
 		</footer>
 	</div>
 </body>

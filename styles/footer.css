@@ -2,13 +2,14 @@
 	font-family: Poppins, sans-serif;
 	text-align: center;
 	background-color: #292929;
+	padding: 40px;
 }
 
-.foot-header{
+.footer-header{
 	text-transform: uppercase;
 	color: #fff;
-	font-size: 20px;
-	padding: 10px;
+	font-size: 1.8rem;
+	padding: 15px;
 	text-decoration: underline;
 	letter-spacing: 2px;
 	font-weight: 700;
@@ -22,12 +23,5 @@ a{
 
 .fab, .copy{
 	color: #777;
-}
-
-.copy{
-	text-transform: uppercase;
-	padding: 10px;
-	font-size: 14px;
-	letter-spacing: 2px;
-	font-weight: 700px;
+	font-size: 1.5rem;
 }

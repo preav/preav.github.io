@@ -1,58 +1,65 @@
 .contact{
 	margin: auto;
+	padding: 100px 100px 0 100px;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.form-card{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin: auto;
+}
+
+.header-container{
+	width: 50%;
+	margin: auto;
 }
 
 .contact-header{
-	font-size: 32px;
+	font-size:  2.28rem;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
-	line-height: 38.4px;
+	line-height: 2.5;
 }
 
 .contact-info{
-	font-size: 14px;
+	font-size: 1rem;
 	font-weight: 400;
 	color: #6c757d;
 	opacity: 0.9;
+	line-height: 1.5;
 }
 
-.extra{
-	clear: both;
+form{
+	text-align: center;
+	width: 70%;
+	margin: auto;
 }
 
 form ul{
 	list-style: none;
 }
 
-.contact-card{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-
-.card{
-	padding: 5px;
-	font-size: 18px;
-	line-height: 30px;
-	flex-basis: 1;
-	border: 1px solid #eee;
-}
-
-.card h4{
-	font-weight: 700;
-}
-
-.card p{
-	color: #333;
+.input{
+	border: 0px;
+	width: 70%;
+	border-bottom: 1px solid #ddd;
+	padding: 6px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.14rem;
+	margin-top: 1.5rem;
 }
 
 .submit{
 	background-color: #e74c3c;
 	border: none;
 	padding: 20px 40px;
-	margin-top: 20px;
+	margin: 20px 0;
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 1.14rem;
 	color: #fff;
 	cursor: pointer;
 }
@@ -63,14 +70,25 @@ form ul{
 	color: #000;
 }
 
-.input{
-	border: 0px;
-	border-bottom: 1px solid #ddd;
-	padding: 6px;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
+.contact-card{
+	display: flex;
+	justify-content: space-between;
+
 }
 
-form{
-	text-align: center;
+.card{
+	flex-basis: 25%;
+	padding: 1.8rem;
+	font-size: 1.28rem;
+	line-height: 2;
+	border: 1px solid #eee;
+	margin: 1.8rem 0 1rem 0;
+}
+
+.card h4{
+	font-weight: 700;
+}
+
+.card p{
+	color: #333;
 }

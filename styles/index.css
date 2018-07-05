@@ -3,9 +3,14 @@
 @import url("banner.css");
 @import url("footer.css");
 
+html{
+	font-size: 14px;
+}
+
 body{
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
+	height: 100%;
 }
 
 .mainContainer{
