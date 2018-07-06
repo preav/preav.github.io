@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 	position: fixed;
 	width: 100%;
+	z-index: 99;
 }
 
 .nav-bar{
@@ -13,7 +14,6 @@
 	align-items: center;
 	padding: 15px 0 15px 0;
 	width: 100%;
-	z-index: 99;
 }
 
 .brand-logo-link{
@@ -57,7 +57,6 @@
 	}
 	.nav-bar{
 		flex-direction: column;
-		z-index: 99;
 	}
 	.nav-menu{
 		list-style: none;
