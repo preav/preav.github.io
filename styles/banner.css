@@ -69,9 +69,13 @@
 		padding: 5px;
 	}
 	.banner{
+		text-align: center;
 		width: 100%;
 		padding-top: 50%;
 		padding-bottom: 50%;
+	}
+	.banner-header{
+		text-align: center;
 	}
 	.banner-image{
 		display: none;
