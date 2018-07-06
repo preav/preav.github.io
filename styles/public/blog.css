@@ -1,0 +1,10 @@
+/*@import url("../navigation.css");*/
+@import url("../footer.css");
+
+section{
+	display: inline-block;
+}
+
+.container-fluid{
+	padding: 0;	
+}
