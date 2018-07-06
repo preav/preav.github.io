@@ -1,6 +1,6 @@
 .contact{
 	margin: auto;
-	padding: 20% 0 10% 0;
+	padding: 5% 0 5% 0;
 	text-align: center;
 	width: 100%;
 	box-sizing: border-box;
@@ -75,7 +75,6 @@ form ul{
 .contact-card{
 	display: flex;
 	justify-content: space-between;
-
 }
 
 .card{
