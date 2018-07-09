@@ -1,11 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Static Webpage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="styles/index.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<title> Preeti </title>
 </head>
 <body>
-	<h1> Hello World! </h1>
-	<p> This is my template </p>
+	<div class="mainContainer">
+		<header class="nav-container">
+			<nav class="nav-bar">
+				<a href="#" class="brand-logo-link">
+					<img class="brand-logo" src="images/brand-logo.PNG" alt="brand-logo">
+				</a>
+				<div class="nav-menu-container">
+					<ul class="nav-menu" id="menu">
+						<li><a href="#"> Home </a></li>
+						<li><a href="#"> About </a></li>
+						<li><a href="blog.html"> Blog </a></li>
+						<li><a href="#contactPage"> Contact </a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<div class="banner-container">
+			<div class="container">
+				<div class="banner">
+					<h1 class="banner-header"> Preeti Yadav </h1>
+					<h3 class="banner-sub-header"> UI/UX Designer &amp; Front-End Developer </h3>
+					<p class="banner-info"> Working as a UI Developer with more than 4 years of experience in web-apps and webpage development. </p>
+				</div>	
+				<div class="banner-image">
+					<div class="image-container">
+						<img src="images/workspace@2x.png" alt="banner-image">
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="contact" id="contactPage">
+			<div class="form-card">
+				<div class="header-container">
+					<h2 class="contact-header"> Contact Me! </h2>
+					<p class="contact-info"> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+				</div>
+				<form action="index.php" method="post">
+					<ul>
+						<li>
+							<input class="input" type="text" name="name" placeholder="Enter Name"/>
+						</li>
+						<li>
+							<input class="input" type="email" name="email" placeholder="Enter Email"/>
+						</li>
+						<li><input class="input" type="text" name="subject" placeholder="Subject"/></li>
+						<li><textarea class="input" name="message" placeholder="Message"></textarea></li>
+						<li><input class="submit" type="submit" name="submit" value="SUBMIT"></li>
+					</ul>
+				</form>
+			</div>
+			<section class="contact-card">
+				<div class="card card1">
+					<h4> Location </h4>
+					<p> Bangalore, Karnataka </p>
+				</div>
+				<div class="card card3">
+					<h4> Support </h4>
+					<p> preetiyadav0492@gmail.com </p>
+				</div>
+				<div class="card card2">
+					<h4> Contact </h4>
+					<p> +91-9999999999 </p>
+				</div>
+			</section>
+		</section>
+		<footer class="footer">
+			<h4 class="footer-header"> Preeti </h4>
+			<a href="#">
+				<i class="fab fa-facebook-f"></i>
+			</a>
+			<a href="#">
+				<i class="fab fa-twitter"></i>
+			</a>
+			<a href="#">
+				<i class="fab fa-linkedin-in"></i>
+			</a>
+			<a href="#">
+				<i class="fab fa-behance"></i>
+			</a>
+		</footer>
+	</div>
 </body>
 </html>
