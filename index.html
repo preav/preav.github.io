@@ -19,10 +19,10 @@
 				</a>
 				<div class="nav-menu-container">
 					<ul class="nav-menu" id="menu">
-						<li><a href="#"> Home </a></li>
-						<li><a href="#"> About </a></li>
+						<li><a href="index.html"> Home </a></li>
+						<li><a href="index.html"> About </a></li>
 						<li><a href="blog.html"> Blog </a></li>
-						<li><a href="#contactPage"> Contact </a></li>
+						<li><a href="index.html"> Contact </a></li>
 					</ul>
 				</div>
 			</nav>
@@ -50,14 +50,14 @@
 				<form action="index.php" method="post">
 					<ul>
 						<li>
-							<input class="input" type="text" name="name" placeholder="Enter Name"/>
+							<input aria-label="username" class="input" id="uname" type="text" name="name" placeholder="Enter Name"/>
 						</li>
 						<li>
-							<input class="input" type="email" name="email" placeholder="Enter Email"/>
+							<input aria-label="password" class="input" type="email" name="email" placeholder="Enter Email"/>
 						</li>
-						<li><input class="input" type="text" name="subject" placeholder="Subject"/></li>
-						<li><textarea class="input" name="message" placeholder="Message"></textarea></li>
-						<li><input class="submit" type="submit" name="submit" value="SUBMIT"></li>
+						<li><input aria-label="subject" class="input" type="text" name="subject" placeholder="Subject"/></li>
+						<li><textarea aria-label="messages" class="input" name="message" placeholder="Message"></textarea></li>
+						<li><input aria-label="submit" class="submit" type="submit" name="submit" value="SUBMIT"></li>
 					</ul>
 				</form>
 			</div>
@@ -78,16 +78,16 @@
 		</section>
 		<footer class="footer">
 			<h4 class="footer-header"> Preeti </h4>
-			<a href="https://www.facebook.com">
+			<a aria-label="facebook" href="https://www.facebook.com">
 				<i class="fab fa-facebook-f"></i>
 			</a>
-			<a href="https://www.twitter.com">
+			<a aria-label="twitter" href="https://www.twitter.com">
 				<i class="fab fa-twitter"></i>
 			</a>
-			<a href="https://www.linkedin.com">
+			<a aria-label="linkedin" href="https://www.linkedin.com">
 				<i class="fab fa-linkedin-in"></i>
 			</a>
-			<a href="https://www.behance.com">
+			<a aria-label="behance" href="https://www.behance.com">
 				<i class="fab fa-behance"></i>
 			</a>
 		</footer>

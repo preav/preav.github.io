@@ -26,9 +26,9 @@
 }
 
 .contact-info{
-	font-size: 1rem;
+	font-size: 1.2rem;
 	font-weight: 400;
-	color: #6c757d;
+	color: #535A5F;
 	opacity: 0.9;
 	line-height: 1.5;
 	padding: 2px;
@@ -55,11 +55,11 @@ form ul{
 }
 
 .submit{
-	background-color: #e74c3c;
-	border: 1px solid #e74c3c;
+	background-color: #A82315;
+	border: 1px solid #A82315;
 	padding: 20px 40px;
 	margin: 20px 0;
-	font-weight: 400;
+	font-weight: 600;
 	font-size: 1.14rem;
 	color: #fff;
 	cursor: pointer;
@@ -67,7 +67,7 @@ form ul{
 }
 
 .submit:hover{
-	border: 1px solid #e74c3c;
+	border: 1px solid #A82315;
 	background-color: #fff;
 	color: #000;
 }
@@ -93,6 +93,7 @@ form ul{
 
 .card p{
 	color: #333;
+	font-size: 1.2rem;
 }
 
 @media screen and (max-width: 768px){

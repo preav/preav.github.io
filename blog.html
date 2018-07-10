@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title> Preeti | Blog</title>
-	<link rel="stylesheet" type="text/css" href="../bootstrap-4.1.1/dist/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="../bootstrap-4.1.1/dist/css/bootstrap.min.css"> -->
 	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="../styles/public/blog.css"> -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="../styles/public/blog.css">
-</head>
+	<link rel="stylesheet" type="text/css" href="src/css/blog.css">
+</head>	
 <body>
 	<div class="mainContainer container-fluid">
-		<header class="container-fluid">
-			<nav class="navbar navbar-light navbar-expand-md">
-				<a class="navbar-brand" href="index.html">
+		<header class="headerContainer row">
+			<div class="col">
+				<nav class="navContainer navbar navbar-light navbar-expand-md py-2">
+				<a class="navbar-brand px-0" href="index.html" data-toggle="tooltip" data-placement="top" id="brand-logo" title="Preeti">
 					<img class="brand-logo" src="../images/brand-logo.PNG" alt="brand-logo">
 				</a>
 				<button class="navbar-toggler" type="button" 
@@ -25,81 +28,88 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navToggler">
 					<div class="navbar-nav ml-auto" id="menu">
-						<a class="nav-link nav-item" href="../index.html"> Home </a>
-						<a class="nav-link nav-item" href="about.html"> About </a>
-						<a class="nav-link nav-item" href="blog.html"> Blog </a>
-						<a class="nav-link nav-item" href="contact.html"> Contact </a>
+						<a class="nav-link nav-item font-weight-bold px-3 py-3" href="index.html"> Home </a>
+						<a class="nav-link nav-item font-weight-bold px-3 py-3" href="index.html"> About </a>
+						<a class="nav-link nav-item font-weight-bold px-3 py-3" href="blog.html"> Blog </a>
+						<a class="nav-link nav-item font-weight-bold px-3 py-3" href="index.html"> Contact </a>
 					</div>
 				</div> <!--collapse-->
-			</nav>
-		</header>
-		<div class="body-container">
-			<header class="blogHeader text-center">
-				<h2 class="col-xs-12"> Blog Articles! </h2>
-				<p class="col-xs-12"> It is a long established fact that readers will be distracted by the readable content of a page when looking at its layout. </p>
-			</header>
-			<article class="container-fluid text-center">
-				<div class="row">
-					<section class="col-sm-12 col-md-6 col-lg-4">
-						<img src="../images/blog3.jpg" alt="blog3">
-						<div>
-							<span> 6 </span>
-							<span> July </span>
-						</div>
-						<div>
-							<h3> Blog 1 </h3>
-							<p> lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet </p>
-						</div>
-						<div> Continue reading </div>
-					</section>
-					<section class="col-sm-12 col-md-6 col-lg-4">
-						<img src="../images/blog4.jpg" alt="blog4">
-						<div>
-							<span> 6 </span>
-							<span> July </span>
-						</div>
-						<div>
-							<h3> Blog 2 </h3>
-							<p> lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet </p>
-						</div>
-						<div> Continue reading </div>
-					</section>
-					<section class="col-sm-12 col-md-6 col-lg-4">
-						<img src="../images/blog5.jpg" alt="blog5">
-						<div>
-							<span> 6 </span>
-							<span> July </span>
-						</div>
-						<div>
-							<h3> Blog 3 </h3>
-							<p> lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet </p>
-						</div>
-						<div> Continue reading </div>
-					</section>
-				</div>
-			</article>
+				</nav> <!-- nav ending -->
 			</div>
+		</header> <!--header-->
+			<div class="bodyContainer container-fluid">
+				<div class="row">
+					<header class="col blogHeader text-center">
+					<h2 class="col"> Blog Articles! </h2>
+					<p class="col"> It is a long established fact that readers will be distracted by the readable content of a page when looking at its layout. </p>
+					</header>
+				</div> <!-- row end -->
+				<div class="card-deck row">
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<section class="card" id="blog3" > <!-- card 1 start -->
+							<img class="card-img-top" src="../images/blog3.jpg" alt="blog3">
+							<div class="card-body">
+								<div>
+									<h3 class="card-title text-center"> Blog 3 </h3>
+									<p class="card-text"> lorem ipsum dolor sit amet lorem ipsum dolor sit amet </p>
+								</div>
+								<a class="card-link m-0 p-0" href="blog.html" aria-label="continue reading"> Continue reading &gt; </a>
+							</div>
+						</section> <!-- card 1 end -->
+					</div>
+					<div class=" col-xs-12 col-sm-6 col-md-4">
+						<section class="card" id="blog4"> <!--card 2 start-->
+							<img class="card-img-top" src="../images/blog4.jpg" alt="blog4">
+							<div class="card-body">
+								<div>
+									<h3 class="card-title text-center"> Blog 4 </h3>
+									<p class="card-text"> lorem ipsum dolor sit amet lorem ipsum dolor sit amet </p>
+								</div>
+								<a class="card-link m-0 p-0" href="blog.html" aria-label="continue reading"> Continue reading &gt; </a>
+							</div>
+						</section> <!-- card 2 end -->
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<section class="card" id="blog5"> <!-- card 3 start -->
+							<img class="card-img-top" src="../images/blog5.jpg" alt="blog5">
+							<div class="card-body">
+								<div>
+									<h3 class="card-title text-center"> Blog 5 </h3>
+									<p class="card-text"> lorem ipsum dolor sit amet lorem ipsum dolor sit amet </p>
+								</div>
+								<a class="card-link m-0 p-0" href="blog.html" aria-label="continue reading"> Continue reading &gt; </a>
+							</div>
+						</section> <!-- card 3 end-->
+					</div>
+				</div> <!-- row end -->
+			</div> <!-- container-fluid end -->
 		</div>
 		<footer class="footer">
 			<h4 class="footer-header"> Preeti </h4>
-			<a href="https://www.facebook.com">
+			<a aria-label="facebook" href="https://www.facebook.com">
 				<i class="fab fa-facebook-f"></i>
 			</a>
-			<a href="https://www.twitter.com">
+			<a aria-label="twitter" href="https://www.twitter.com">
 				<i class="fab fa-twitter"></i>
 			</a>
-			<a href="https://www.linkedin.com">
+			<a aria-label="linkedin" href="https://www.linkedin.com">
 				<i class="fab fa-linkedin-in"></i>
 			</a>
-			<a href="https://www.behance.com">
+			<a aria-label="behance" href="https://www.behance.com">
 				<i class="fab fa-behance"></i>
 			</a>
 		</footer>
-	</div> <!-- container-fluid -->
-	<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> -->
-	<script src="../bootstrap-4.1.1/dist/jquery.js"></script>
-	<script src="../bootstrap-4.1.1/dist/js/bootstrap.min.js"></script>
+	<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> -->
+	<!-- <script src="../src/js/jquery.js"></script> -->
+	<!-- <script src="../src/js/popper.js"></script>	 -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="../src/js/bootstrap.js"></script> -->
+	<script>
+		$(function() {
+			$('[data-toggle="tooltip"]').tooltip();
+		});
+	</script>
 </body>
 </html>

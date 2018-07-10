@@ -1,0 +1,55 @@
+$font: 'Open Sans', sans-serif;
+$background-dark: #EEF1F2;
+$background-light: #FFF;
+$padding-container: 15px 0 15px 0;
+$text-dark: #000;
+$full-length: 100%;
+$hover-text: #A82315;
+$hover-background: #EEF1F2;
+
+body{
+	height: $full-length;
+	width: $full-length;
+	box-sizing: border-box !important;
+	background-color: $background-dark;
+}
+
+
+.row{
+  margin:0 !important;
+}
+
+.container-fluid {
+  padding:0 !important;
+}
+
+.mainContainer{
+	font-family: $font;
+	height: $full-length;
+}
+
+.headerContainer{
+	width: $full-length;
+	background-color: $background-light;
+	padding: $padding-container;
+	height: 10%;
+}
+
+.bodyContainer{
+	padding: $padding-container !important;
+	background-color: $background-dark;
+	width: $full-length;
+}
+
+.nav-link{
+	text-transform: uppercase;
+}
+
+.nav-link:hover{
+	background-color: $hover-background !important;
+}
+
+.card-link{
+	color: $hover-text !important;
+	font-weight: 700;
+}
