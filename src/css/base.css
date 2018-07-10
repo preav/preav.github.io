@@ -1,7 +1,6 @@
 body {
   height: 100%;
   width: 100%;
-  box-sizing: border-box !important;
   background-color: #EEF1F2; }
 
 .row {
@@ -29,8 +28,11 @@ body {
   text-transform: uppercase; }
 
 .nav-link:hover {
-  background-color: #EEF1F2 !important; }
+  background-color: #EEF1F2; }
+
+.cardWrapper {
+  margin: 5px 0 5px 0; }
 
 .card-link {
-  color: #A82315 !important;
+  color: #A82315;
   font-weight: 700; }

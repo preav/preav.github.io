@@ -10,10 +10,8 @@ $hover-background: #EEF1F2;
 body{
 	height: $full-length;
 	width: $full-length;
-	box-sizing: border-box !important;
 	background-color: $background-dark;
 }
-
 
 .row{
   margin:0 !important;
@@ -46,10 +44,14 @@ body{
 }
 
 .nav-link:hover{
-	background-color: $hover-background !important;
+	background-color: $hover-background;
+}
+
+.cardWrapper{
+	margin: 5px 0 5px 0;
 }
 
 .card-link{
-	color: $hover-text !important;
+	color: $hover-text;
 	font-weight: 700;
 }
