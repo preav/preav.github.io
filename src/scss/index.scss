@@ -1,0 +1,8 @@
+$navbar-light-color: #000;
+$navbar-light-hover-color: #A82315;
+$jumbotron-bg: #EEF1F2;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "base";
+@import "blog";
+@import "../../styles/footer";
