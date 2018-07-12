@@ -1,0 +1,25 @@
+$full-length: 100%;
+$padding-container: 15px 0 15px 0;
+
+.mainContainer{
+	height: $full-length;
+}
+
+.headerContainer{
+	width: $full-length;
+	height: 10%;
+	padding: $padding-container;
+}
+
+.bodyContainer{
+	width: $full-length;
+	padding: $padding-container !important;
+}
+
+.container-fluid {
+  padding:0 !important;
+}
+
+.row{
+  margin:0 !important;
+}
