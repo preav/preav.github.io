@@ -3,9 +3,9 @@ $navbar-light-hover-color: #A82315;
 $jumbotron-bg: #EEF1F2;
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
-@import "base";
-@import "layout";
-@import "module";
-@import "state";
-@import "theme";
+@import "_base";
+@import "_layout";
+@import "_module";
+@import "_state";
+@import "_theme";
 @import "../../styles/footer";
