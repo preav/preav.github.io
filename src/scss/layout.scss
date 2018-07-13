@@ -1,25 +1,35 @@
 $full-length: 100%;
-$padding-container: 15px 0 15px 0;
+
+
+@mixin paddingX($paddingX: 15px 0 15px 0) {
+	padding: $paddingX;
+}
+
+
+.bodyContainer{
+	@include paddingX;
+	width: $full-length;
+}
+
+
+.container-fluid {
+ 	@include paddingX(0);
+}
+
+.row{
+	margin:0 !important;
+}
 
 .mainContainer{
 	height: $full-length;
 }
 
 .headerContainer{
+	@include paddingX;
 	width: $full-length;
 	height: 10%;
-	padding: $padding-container;
 }
 
-.bodyContainer{
-	width: $full-length;
-	padding: $padding-container !important;
-}
-
-.container-fluid {
-  padding:0 !important;
-}
-
-.row{
-  margin:0 !important;
+.blogHeader{
+	@include paddingX(15px 0 0 0);
 }

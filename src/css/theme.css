@@ -1,0 +1,18 @@
+.mainContainer {
+  font-family: "Open Sans", sans-serif; }
+
+.headerContainer {
+  background-color: #FFF; }
+
+.bodyContainer {
+  background-color: #EEF1F2; }
+
+.nav-link {
+  text-transform: uppercase; }
+
+.nav-link:hover {
+  background-color: #EEF1F2; }
+
+.card-link {
+  color: #A82315;
+  font-weight: 700; }

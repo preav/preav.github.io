@@ -31,80 +31,118 @@
 							<a class="nav-link nav-item font-weight-bold px-3 py-3" aria-label="Home" href="index.html"> Home </a>
 							<a class="nav-link nav-item font-weight-bold px-3 py-3" aria-label="About" href="index.html"> About </a>
 							<a class="nav-link nav-item font-weight-bold px-3 py-3" aria-label="Blog" href="blog.html"> Blog </a>
-							<a class="nav-link nav-item font-weight-bold px-3 py-3" aria-label="Contact" href="index.html"> Contact </a>
+							<a class="nav-link nav-item font-weight-bold px-3 py-3" aria-label="Contact" data-toggle="modal" data-target="#contact-modal-lg"> Contact </a>
 						</div>
 					</div> <!--collapse-->
 				</nav> <!-- nav ending -->
 			</div>
 		</header> <!--header-->
-		<section class="jumbotron">
-			<h1 class="display-4"> Welcome! </h1>
-			<h2 class="display-6"> To the very beginning of this journey </h2>
-			<hr class="my-4">
-			<p> If you haven't watched Nanette by Hannah Gatsdby on Netflix, you must! </p>
-		</section>
-		<div class="bodyContainer container-fluid">
-			<div class="row">
-				<header class="col blogHeader text-center">
-				<h2 class="col"> Blog Articles! </h2>
-				<p class="col"> It is a long established fact that readers will be distracted by the readable content of a page when looking at its layout. </p>
-				</header>
-			</div> <!-- row end -->
-			<div class="card-deck row">
-				<div class="col-xs-12 col-sm-6 col-md-4 cardWrapper">
-					<section class="card" id="blog3" > <!-- card 1 start -->
-						<img class="card-img-top" src="images/blog3.jpg" alt="blog3">
-						<div class="card-body">
-							<div>
-								<h3 class="card-title text-center"> Cool Book! </h3>
-								<p class="card-text"> This image makes no sense, but it's cool </p>
+		<main>
+			<section class="jumbotron">
+				<h1 class="display-4"> Welcome! </h1>
+				<h2 class="display-6"> To the very beginning of this journey </h2>
+				<hr class="my-4">
+				<p> If you haven't watched Nanette by Hannah Gatsdby on Netflix, you must! </p>
+			</section>
+			<section class="bodyContainer container-fluid">
+				<div class="row">
+					<header class="col blogHeader text-center">
+						<h2 class="col"> Blog Articles! </h2>
+						<p class="col"> It is a long established fact that readers will be distracted by the readable content of a page when looking at its layout. </p>
+					</header>
+				</div> <!-- row end -->
+				<div class="card-deck row">
+					<div class="col-xs-12 col-sm-6 col-md-4 cardWrapper">
+						<section class="card" id="blog3" > <!-- card 1 start -->
+							<img class="card-img-top" src="images/blog3.jpg" alt="blog3">
+							<div class="card-body">
+								<div>
+									<h3 class="card-title text-center"> Cool Book! </h3>
+									<p class="card-text"> This image makes no sense, but it's cool </p>
+								</div>
+								<a class="card-link m-0 p-0" href="blog.html" aria-label="continue reading"> Continue reading &gt; </a>
 							</div>
-							<a class="card-link m-0 p-0" href="blog.html" aria-label="continue reading"> Continue reading &gt; </a>
-						</div>
-					</section> <!-- card 1 end -->
-				</div>
-				<div class=" col-xs-12 col-sm-6 col-md-4 cardWrapper">
-					<section class="card" id="blog4"> <!--card 2 start-->
-						<img class="card-img-top" src="images/blog4.jpg" alt="blog4">
-						<div class="card-body">
-							<div>
-								<h3 class="card-title text-center"> What Book? </h3>
-								<p class="card-text"> Have you watched Nanette yet? </p>
+						</section> <!-- card 1 end -->
+					</div>
+					<div class=" col-xs-12 col-sm-6 col-md-4 cardWrapper">
+						<section class="card" id="blog4"> <!--card 2 start-->
+							<img class="card-img-top" src="images/blog4.jpg" alt="blog4">
+							<div class="card-body">
+								<div>
+									<h3 class="card-title text-center"> What Book? </h3>
+									<p class="card-text"> Have you watched Nanette yet? </p>
+								</div>
+								<a class="card-link m-0 p-0" href="blog.html" aria-label="continue reading"> Continue reading &gt; </a>
 							</div>
-							<a class="card-link m-0 p-0" href="blog.html" aria-label="continue reading"> Continue reading &gt; </a>
-						</div>
-					</section> <!-- card 2 end -->
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4 cardWrapper">
-					<section class="card" id="blog5"> <!-- card 3 start -->
-						<img class="card-img-top" src="images/blog5.jpg" alt="blog5">
-						<div class="card-body">
-							<div>
-								<h3 class="card-title text-center"> Stop Talking! </h3>
-								<p class="card-text"> If not, you definitely should. </p>
+						</section> <!-- card 2 end -->
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 cardWrapper">
+						<section class="card" id="blog5"> <!-- card 3 start -->
+							<img class="card-img-top" src="images/blog5.jpg" alt="blog5">
+							<div class="card-body">
+								<div>
+									<h3 class="card-title text-center"> Stop Talking! </h3>
+									<p class="card-text"> If not, you definitely should. </p>
+								</div>
+								<a class="card-link m-0 p-0" href="blog.html" aria-label="continue reading"> Continue reading &gt; </a>
 							</div>
-							<a class="card-link m-0 p-0" href="blog.html" aria-label="continue reading"> Continue reading &gt; </a>
+						</section> <!-- card 3 end-->
+					</div>
+				</div> <!-- row end -->
+			</section> <!-- container-fluid end -->
+		</main>
+		<footer class="footer">
+			<div class="modal fade" id="contact-modal-lg" tabindex="-1" role="dialog" aria-labelledby="contactModal" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="contactModalLabel"> Contact Me </h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          					<span aria-hidden="true">&times;</span>
+	        				</button>	
 						</div>
-					</section> <!-- card 3 end-->
+						<div class="modal-body">
+							<form>
+								<div class="form-group">
+									<label for="recipient-name" class="col-form-label sr-only"> Name </label>
+									<input type="text" class="form-control" id="recipient-name" placeholder="Name">
+								</div>
+								<div class="form-group">
+									<label for="recipient-mail" class="col-form-label sr-only"> e-mail </label>
+									<input type="e-mail" class="form-control" id="recipient-mail" placeholder="e-mail">
+								</div>
+								<div class="form-group">
+									<label for="subject" class="col-form-label sr-only"> Subject </label>
+									<input type="subject" class="form-control" id="subject" placeholder="Subject">
+								</div>
+								<div class="form-group">
+									<label for="message" class="col-form-label sr-only"> Message </label>
+									<textarea type="message" class="form-control" id="message" placeholder="Enter your message here"></textarea>
+								</div>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal"> Close </button>
+							<button type="button" class="btn btn-primary"> Submit </button>
+						</div>
+					</div>
 				</div>
-			</div> <!-- row end -->
-		</div> <!-- container-fluid end -->
+		</div>
+			<h4 class="footer-header"> Preeti </h4>
+			<a aria-label="facebook" href="https://www.facebook.com">
+				<i class="fab fa-facebook-f"></i>
+			</a>
+			<a aria-label="twitter" href="https://www.twitter.com">
+				<i class="fab fa-twitter"></i>
+			</a>
+			<a aria-label="linkedin" href="https://www.linkedin.com">
+				<i class="fab fa-linkedin-in"></i>
+			</a>
+			<a aria-label="behance" href="https://www.behance.com">
+				<i class="fab fa-behance"></i>
+			</a>
+		</footer>
 	</div>
-	<footer class="footer">
-		<h4 class="footer-header"> Preeti </h4>
-		<a aria-label="facebook" href="https://www.facebook.com">
-			<i class="fab fa-facebook-f"></i>
-		</a>
-		<a aria-label="twitter" href="https://www.twitter.com">
-			<i class="fab fa-twitter"></i>
-		</a>
-		<a aria-label="linkedin" href="https://www.linkedin.com">
-			<i class="fab fa-linkedin-in"></i>
-		</a>
-		<a aria-label="behance" href="https://www.behance.com">
-			<i class="fab fa-behance"></i>
-		</a>
-	</footer>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>

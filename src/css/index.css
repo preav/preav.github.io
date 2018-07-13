@@ -6287,35 +6287,44 @@ body {
   width: 100%;
   background-color: #fff; }
 
+.bodyContainer {
+  padding: 15px 0 15px 0;
+  width: 100%; }
+
+.container-fluid {
+  padding: 0; }
+
 .row {
   margin: 0 !important; }
 
-.container-fluid {
-  padding: 0 !important; }
-
 .mainContainer {
-  font-family: "Open Sans", sans-serif;
   height: 100%; }
 
 .headerContainer {
-  width: 100%;
-  background-color: #FFF;
   padding: 15px 0 15px 0;
+  width: 100%;
   height: 10%; }
 
+.blogHeader {
+  padding: 15px 0 0 0; }
+
+.cardWrapper {
+  margin: 5px 0 5px 0; }
+
+.mainContainer {
+  font-family: "Open Sans", sans-serif; }
+
+.headerContainer {
+  background-color: #FFF; }
+
 .bodyContainer {
-  padding: 15px 0 15px 0 !important;
-  background-color: #EEF1F2;
-  width: 100%; }
+  background-color: #EEF1F2; }
 
 .nav-link {
   text-transform: uppercase; }
 
 .nav-link:hover {
   background-color: #EEF1F2; }
-
-.cardWrapper {
-  margin: 5px 0 5px 0; }
 
 .card-link {
   color: #A82315;
